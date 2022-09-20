@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/cameretta/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Università/2.2/Programmazione1/EserciziSlideP1/Funzioni utili/LinkedList'
+c++    -c -o testGenericList.o testGenericList.cpp
+g++ -o testGenericLinkedList testGenericList.o -std=c++11
+make: Leaving directory `/Users/cameretta/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Università/2.2/Programmazione1/EserciziSlideP1/Funzioni utili/LinkedList'
+ 

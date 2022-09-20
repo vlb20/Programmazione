@@ -1,0 +1,47 @@
+Una grande azienda di accoglienza turistica gestisce un insieme di alberghi.
+Ogni albergo ha un nome, una categoria (due, tre, quattro, cinque stelle), 
+un prezzo unitario della camera e una lista di prenotazioni.
+Ogni prenotazione contiene il nome del cliente, il codice della carta di credito e la data della prenotazione 
+(assimiamo che tutte le prenotazioni siano di una notte sola).
+La lista delle prenotazioni viene mantenuta in ordine di data.
+L’insieme degli alberghi viene mantenuto in un vettore ordinato un base al numero di prenotazioni (decrescente).
+
+Implementare:
+Le strutture  dati  per la rappresentazione  delle informazioni relative agli albergli e 
+delle prenotazioni.
+La funzione insert_booking che prende in ingresso nome del cliente, 
+il  numero di carta di crediti, la data della prenotazione 
+e la categoria selezionata, e inserisce la prenotazione nel primo albergo (secondo l’ordine del vettore)
+di quella categoria che ha quella data libera. 
+
+
+class Albergo{
+    - string nomeAlbergo
+    - int stelle
+    - double prezzo
+    - list<Prenotazione*> prenotazioni
+
+    + bool operator>(const Albergo& rhs) const
+    + int numeroPrenotazioni()
+    +setStelle()
+    +getStelle()
+}
+
+class Prenotazione{
+    - string nomeCliente
+    - int codiceCarta
+    - Date dataPrenotazione
+
+    +getNomeCliente()
+    +setNomeCliente()
+    +getCodiceCarta()
+    +setCodiceCarta()
+    +getDataPrenotazione()
+    +setDataPrenotazione() 
+}
+
+class Agenzia{
+    - vector<Albergo*> alberghi
+
+    +void insertBooking
+}

@@ -1,0 +1,17 @@
+Un’agenzia di spedizioni deve gestire le consegne settimanali dei pacchi. Ogni pacco ha un
+mittente, un destinatario, una data di consegna e un peso in kilogrammi. Per ogni pacco
+l’agenzia riceve un compenso base pari a 1 euro per ogni chilogrammo. Esistono poi dei
+pacchi relativi alle spedizioni extra-europee che oltre alle informazioni di base contengono la
+Nazione di spedizione e il continente. Per questi pacchi l’agenzia oltre al compenso base riceve
+€10 per le spese di dogana dei pacchi provenienti dagli Stati Uniti e €15 per tutti gli altri
+continenti.
+Manteniamo i pacchi di questa settimana in una lista. La lista e’ mantenuta in maniera ordinata
+in base alla data di consegna. Cioe’ ogni volta che si aggiunge un pacco alla lista, esso viene
+inserito nella posizione corretta (non bisogna ri-ordinare la lista ad ogni aggiunta!).
+Implementare:
+● Le strutture dati per la rappresentazione delle informazioni relative alle consegne
+dell’agenzia
+● La funzione weekly_earnings() che a partire dalla lista di pacchi calcola la
+sommatoria dei comprensi
+● Un programma driver che istanzia un insieme di pacchi di varie tipologie, le inserisce
+nella lista e invoca la funzione weekly_earnings()

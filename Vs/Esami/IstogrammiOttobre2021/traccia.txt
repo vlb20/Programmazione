@@ -1,0 +1,21 @@
+Vogliamo rappresentare le informazioni sugli insegnamenti che ciascuno studente ha superato 
+e calcolare quanti studenti hanno superato un certo numero di crediti.
+Le informazioni minime per un insegnamento sono  il nome_insegnamento (stringa),
+il numero di crediti n_crediti (intero) e il docente (stringa), 
+possiamo rappresentare tutti gli insegnamenti in un vettore. 
+Per ogni studente invece conserveremo il nome (stringa), cognome (stringa), matricola (stringa)
+e la lista degli insegnamenti (riferimenti) che lo studente ha superato. 
+Useremo una funzione membro nella classe studente che calcola il numero di crediti che lo studente ha superato.
+Possiamo rappresentare l’insieme degli studenti in un vettore.
+
+Implementare le strutture dati per rappresentare le informazioni
+Implementare la funzione istogramma_crediti() che riceve in ingresso l’insieme degli studenti 
+e calcola l’istogramma del numero di crediti superati dall’insieme dei nostri studenti.
+Visto che ogni studente non puo’ superare piu’ di 180 crediti l’istogramma e’ un vettore di 181 elementi
+in cui in ogni posizione k c’e’ il numero di studenti che ha superato  k crediti. 
+Ad esempio istogramma[0] contiene il numero di studenti che hanno superato 0 crediti,
+istogramma[9] contiene il numero di studenti che hanno superato 9 crediti, 
+istogramma[18] contiene il numero di studenti che hanno superato 18 crediti, etc..
+NOTA: basta scorrere l’insieme degli studenti UNA SOLA VOLTA per calcolare l’istogramma
+Implementare un programma driver che istanzia le strutture dati con dati di esempio e invoca la funzione  istogramma_crediti().
+Facoltativo: ordinare il vettore degli studenti in base al numero di crediti superato.

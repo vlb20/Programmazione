@@ -1,0 +1,15 @@
+Un’azienda di sviluppo software intende gestire i propri progetti. 
+Ogni progetto ha un nome (stringa), un committente (stringa), un importo (float),
+una data di inizio e una data di consegna del progetto.
+Il progetto contiene inoltre una lista di tasks. 
+Una task contiene il nome della task, la data di scadenza, il numero di ore uomo (intero),  
+il riferimento al programmatore responsabile di quel task. 
+La lista dei task e’ mantenuta ordinata per data di scadenza.  
+Per mantenuta intendiamo che ogni volta che si inserisce un task ad un progetto esso 
+va inserito nell’ordine corretto (quindi non bisogna ordinare dopo aver inserito tutti i task). 
+Per ogni programmatore manteniamo il nome, ed il costo orario.
+I programmatori sono contenuti in un vettore ordinato per costo.
+
+Implementare le classi per rappresentare le varie informazioni, con le opportune funzioni membro
+Implementare la funzione workloadDeveloper() che restituisce la somma delle ore uomo  
+dei task di cui quel programmatore e’ responsabile.
